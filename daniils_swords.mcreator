@@ -22,6 +22,20 @@
           "src/main/java/net/mcreator/daniilsswords/item/NinjatoItem.java"
         ]
       }
+    },
+    {
+      "name": "Dimensaofoda",
+      "type": "dimension",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dimensaofoda",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/daniilsswords/world/dimension/DimensaofodaDimension.java",
+          "src/main/resources/data/daniils_swords/dimension/dimensaofoda.json",
+          "src/main/resources/data/daniils_swords/dimension_type/dimensaofoda.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -29,17 +43,24 @@
   "tag_elements": {
     "ITEMS:minecraft:swords": [
       "~CUSTOM:Ninjato"
+    ],
+    "BLOCKS:minecraft:overworld_carver_replaceables": [
+      "~Blocks.BLACKSTONE"
     ]
   },
   "tab_element_order": {},
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "item_group.daniils_swords.teste": "Armas brancas"
+    }
   },
   "metadata": {
     "files": [
       "src/main/resources/META-INF/mods.toml",
       "src/main/resources/pack.mcmeta",
-      "src/main/java/net/mcreator/daniilsswords/DaniilsSwordsMod.java"
+      "src/main/java/net/mcreator/daniilsswords/DaniilsSwordsMod.java",
+      "src/main/java/net/mcreator/daniilsswords/init/DaniilsSwordsModTabs.java",
+      "src/main/java/net/mcreator/daniilsswords/init/DaniilsSwordsModItems.java"
     ]
   },
   "foldersRoot": {

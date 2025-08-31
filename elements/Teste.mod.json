@@ -2,9 +2,9 @@
   "_fv": 79,
   "_type": "tab",
   "definition": {
-    "name": "Teste",
+    "name": "Armas brancas",
     "icon": {
-      "value": "Blocks.DIAMOND_BLOCK"
+      "value": "CUSTOM:Ninjato"
     },
     "showSearch": true
   }
