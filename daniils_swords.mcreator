@@ -9,9 +9,9 @@
   },
   "metadata": {
     "files": [
+      "src/main/resources/META-INF/mods.toml",
       "src/main/resources/pack.mcmeta",
-      "src/main/java/net/mcreator/daniilsswords/DaniilsSwordsMod.java",
-      "src/main/resources/META-INF/mods.toml"
+      "src/main/java/net/mcreator/daniilsswords/DaniilsSwordsMod.java"
     ]
   },
   "foldersRoot": {
