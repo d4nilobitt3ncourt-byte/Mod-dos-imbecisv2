@@ -9,16 +9,31 @@
       "metadata": {
         "files": []
       }
+    },
+    {
+      "name": "Ninjato",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ninjato",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/daniils_swords/models/item/ninjato.json",
+          "src/main/java/net/mcreator/daniilsswords/item/NinjatoItem.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
-  "tag_elements": {},
+  "tag_elements": {
+    "ITEMS:minecraft:swords": [
+      "~CUSTOM:Ninjato"
+    ]
+  },
   "tab_element_order": {},
   "language_map": {
-    "en_us": {
-      "item_group.daniils_swords.teste": "Teste"
-    }
+    "en_us": {}
   },
   "metadata": {
     "files": [

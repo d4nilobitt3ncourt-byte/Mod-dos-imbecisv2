@@ -1,0 +1,7 @@
+{
+  "parent": "daniils_swords:custom/ninjato",
+  "textures": {
+    "0": "daniils_swords:block/ninjatotex",
+    "particle": "minecraft:item/clock_30"
+  }
+}
